@@ -1,1 +1,205 @@
 /* CSS Entry Point */
+$header-height: 82px;
+$etsy-blue: #0192B5;
+$app-padding: 0px 150px 0px 150px;
+$app-padding-left: 0px 0px 0px 150px;
+$app-padding-right: 0px 150px 0px 0px;
+
+// Padding Section
+header, nav {
+  padding: $app-padding;
+  width: 1300px;
+}
+
+.content {
+  margin: 0px 150px 0px 150px;
+  border: 1px solid red;
+}
+
+aside {
+  font-size: 13px;
+  padding: $app-padding-left;
+  display: inline-block;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-flow: column wrap;
+  box-sizing: border-box;
+  width: 394px;
+  margin: 0;
+}
+
+main {
+  padding: $app-padding-right; 
+  display: flex;
+  flex-flow: row wrap;
+  padding: 0px 150px 0px 0px;
+  justify-content: flex-end;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  list-style-type: none;
+  border: 1px solid black;
+}
+
+body  {
+  margin: 0;
+}
+
+ul  {
+  padding: 0px;
+  margin: 0px;
+}
+
+.app {
+  font-family: lucida-sans-unicode;
+}
+
+header {
+  height: $header-height;
+  li {
+  display: inline;
+  height: 33px;
+  }
+}
+
+header > * {
+  display: inline-block;
+  height: $header-height;
+}
+
+h1  {
+  font-family: times;
+  font-size: 2.5em;
+  font-weight: lighter;
+  color: #F56400;
+  margin: 0px 14px 0px 0px;
+  padding: 15px 10px 10px 0px;
+}
+
+h1, .whiskey-box, .search-box {
+  float: left;
+}
+
+.whiskey-box, .search-box  {
+  margin: 24px 0px 0px 0px;
+  box-shadow: inset 2px 4px 5px 3px rgba(0,0,0,0.07);
+}
+
+header > ul {
+  padding: 0px;
+  height: 18px;
+}
+
+header > ul, .cart-box {
+  float: right;
+  color: $etsy-blue;
+
+}
+
+.whiskey-box {
+  height: 34px;
+  width: 259px;
+  border: 1px solid #CFCBC8;
+  border-right: none;
+  border-radius: 5px 0px 0px 5px;
+}
+
+.search-box {
+  height: 34px;
+  width: 78px;
+  background: #34A8C4;
+  border-radius: 0px 5px 5px 0px;
+  border: 1px solid #2F98B1;
+  color: #FFF;
+}
+
+.cart-box, li {
+  
+}
+
+.cart-box {
+  padding: 0px 14px 0px 14px;
+  color: #888;
+}
+nav {
+  height: 44px;
+  border-top: solid 1px #E1E3DF;
+  border-bottom: solid 1px #E1E3DF;
+  box-shadow: 2px 0px 2px -2px #ccc;
+
+}
+nav > * {
+
+}
+
+nav li {
+  list-style-type: none;
+  display: inline;
+  padding: 0px;
+}
+
+.above-pics {
+  display: flex-box;
+  align-content: flex-start;
+  span:first-child {
+  display: flex-box;
+  justify-content: flex-start;  
+  }
+  span:last-child {
+  //  $app
+  }
+}
+
+.show-results {
+  padding: 0px 0px 0px 150px;
+  color: $etsy-blue;
+  li:first-child {
+    color: black;
+  }
+  p {
+    color: black;
+  }
+}
+
+.refine-search {
+  clear: left;
+}
+
+.price-filter li {
+display: inline;
+}
+
+.product, .title, .seller-price {
+  display: block;
+}
+
+.product {
+  display: inline-block;
+  width: 225px;
+  height: 227px;
+  img {
+    width: 225px;
+    height: 179px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
