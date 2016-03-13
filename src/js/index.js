@@ -19,16 +19,17 @@ items.forEach(function(item) {
 
   console.log(item);
 
-  var firstImage  = item.Images[0].url_170x135;
+  var firstImage  = item.Images[0].url_570xN;
   var firstTitle  = item.title;
   var firstSeller = item.Shop.shop_name;
   var firstPrice  = item.price;
+  var currency    = item.currency_code;
 
 
   var itemTemplate = `<div class="product">
                         <img src="${firstImage}"">
                         <div class="title">${firstTitle}</div>
-                        <div class="seller-price"><p>${firstSeller}</p><p>${firstPrice}</p></div>
+                        <div class="seller-price"><p>${firstSeller}</p><p>${firstPrice} ${currency}</p></div>
                       </div>`
 
     $('main').append(itemTemplate);

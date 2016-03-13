@@ -10,16 +10,18 @@
 
     <header>
       <h1>Etsy</h1>
-      <div class="whiskey-box">whiskey</div>
+      <div class="whiskey-box">star trek</div>
       <div class="search-box">Search</div>
 
-      <div class="cart-box">Cart</div>
+      <div class="cart-box"><img src="http://simpleicon.com/wp-content/uploads/Shopping-Cart-9.png">Cart</div>
 
       <ul>
         <li>Sell on Etsy</li> 
         <li>Register</li>
         <li>Sign In</li><!-- Needs blue box -->
       </ul>
+
+      <div class="sign-in-box"></div>
     </header>
 
     <nav>
@@ -35,69 +37,66 @@
       </ul>
     </nav>
 
-      <div class="content">
-        <aside class="show-results">
-          <p>Show results for:</p>
-          <div class="all-categories">
-            <ul>
-              <li>All categories</li>
-              <li>Home & Living</li>
-              <li>Art & Collectibles</li>
-              <li>Weddings</li>
-              <li>Clothing</li>
-              <li>Paper & Party Supplies</li>
-              <li>Jewelry</li>
-              <li>Accessories</li>
-              <li>Craft Supplies & Tools</li>
-              <li>Bags & Purses</li>
-              <li>Bath & Beauty</li>
-              <li>Shoes</li>
-              <li>Books, Movies & Music</li>
-              <li>Electronics & Accessories</li>
-              <li>Toys & Games</li>
-              <li>Pet Supplies</li>
-            </ul>
-          </div>
-        </aside>
-
-        <aside class="refine-search">
-          <p>Refine your search</p>
-          
-          <div class="item-type">
-            <p>Item type</p>
-            <ul>
-              <li>All items</li>
-              <li>Handmade</li>
-              <li>Vintage</li>
-            </ul>
-          </div>
-
-          <div class="price-title">
-            <p>Price ($)</p>
-            <div class="price-filter">
-                <ul>
-                  <li>Low</li>
-                  <li>to</li>
-                  <li>High</li>
-                  <li>></li>
-                </ul>
+    <div class="main-aside">
+      <div class="aside-content">
+          <aside class="show-results">
+            <p>Show results for:</p>
+            <div class="all-categories">
+              <ul>
+                <li>All categories</li>
+                <li>Home & Living</li>
+                <li>Art & Collectibles</li>
+                <li>Weddings</li>
+                <li>Clothing</li>
+                <li>Paper & Party Supplies</li>
+                <li>Jewelry</li>
+                <li>Accessories</li>
+                <li>Craft Supplies & Tools</li>
+                <li>Bags & Purses</li>
+                <li>Bath & Beauty</li>
+                <li>Shoes</li>
+                <li>Books, Movies & Music</li>
+                <li>Electronics & Accessories</li>
+                <li>Toys & Games</li>
+                <li>Pet Supplies</li>
+              </ul>
             </div>
-          </div>
+          </aside>
+
+          <aside class="refine-search">
+            <p>Refine your search</p>
+            <div class="white-box">
+              
+              <ul>
+                <li>Item type</li>
+                <li class="radio-button">All items</li>
+                <li class="etsy-blue-text radio-button">Handmade</li>
+                <li class="etsy-blue-text radio-button">Vintage</li>
+              </ul>
+            </div>
+
+            <div class="price-title">
+              <p>Price ($)</p>
+              <div class="price-filter">
+                  <ul>
+                    <li>Low</li>
+                    <li>to</li>
+                    <li>High</li>
+                    <li>></li>
+                  </ul>
+              </div>
+            </div>
 
             <div class="color-filter">
               <p>Filter by color</p>
-              <div class="color-list">
-                <ul>
-                  <li>r</li>
-                  <li>o</li>
-                  <li>y</li>
-                  <li>g</li>
-                  <li>b</li>
-                  <li>p</li>
-                  <li>w</li>
-                  <li>b</li>
-                </ul>
-              </div>
+              <div id="red" class="color-list"></div>
+              <div id="orange" class="color-list"></div>
+              <div id="yellow" class="color-list"></div>
+              <div id="green" class="color-list"></div>
+              <div id="blue" class="color-list"></div>
+              <div id="purple" class="color-list"></div>
+              <div id="black" class="color-list"></div>
+              <div id="white" class="color-list"></div>
             </div>
 
             <div class="order-options">
@@ -121,16 +120,18 @@
               <p>Ship to</p>
               <p>United States</p>
             </div>   
-        </aside>
+          </aside>
+      </div> 
 
-        <main>
-          <div class="above-pics">
-            <p><span>All categories > “star trek” (14,210 Results)</span><span>Sort by: Relevancy</span></p>
-          </div>
-          <!-- The Product listings, class="product" are here. -->
-        </main>
-      </div>
-
+      <main>
+        <div class="above-pics">
+          <p>
+            <span>All categories > “star trek” (14,210 Results)</span>
+            <span class="sort-by">Sort by: Relevancy</span>
+          </p>
+        </div>
+      </main> 
+    </div>
 
 
     <footer>
