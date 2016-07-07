@@ -15,7 +15,7 @@
     "watch": "watchman-make --make 'npm run' -p 'src/js/*' -t dist:js -p 'src/sass/*' -t dist:css -p 'src/html/*' -t dist:html",
     "server": "http-server dist",
     "develop": "parallelshell 'npm run watch' 'npm run server'",
-    "deploy": "surge -p \"$(npm prefix)/dist\" -d \"tiy-2016q1-$(whoami)-${PWD##*/}.surge.sh\""
+    "deploy": "surge -p \"$(npm prefix)/dist\" -d \"etsy-mockup.surge.sh\""
   },
   "author": "",
   "license": "ISC",
